@@ -1,5 +1,8 @@
 class Player 
-  
+  # getter on @name instance variable (does not modify it)
+  attr_reader :name
+  # getter and setter on @lives intance variable 
+  attr_accessor :lives 
 
 
   # Method to initialize new object instance
@@ -19,3 +22,4 @@ class Player
     @lives > 0
   end
 end 
+
