@@ -14,3 +14,8 @@ class Player
     @lives -= 1
   end 
 
+  # Method which verifies (returns boolean) if players still alive
+  def alive?
+    @lives > 0
+  end
+end 
