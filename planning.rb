@@ -21,8 +21,8 @@ end
 class Question
   # encapsulates math questions (simple math additions) and validates answers 
   # state => question and correct_answer
-  # methods => def initialize a question with two random numbers between 1 and 20
-    # def ask_question whcih the user will read as output on the CLI
+  # methods => def initialize a question with two random numbers between 1 and 20 as well as the answer to that addition of numbers
+    # def to_s which the user will read as output on the CLI
     # def check_answer which will validate player answer/input in CLI 
 end
 
