@@ -12,7 +12,8 @@ class Game
   # encapsulates about the game flow in terms of the main game loop and managing whom the current player is
   # state => two players (Player 1 & Player 2), current_player, game status 
   # methods => def initialize(player1, player2) with two players 
-    # def start which will start game loop 
+    # def start which will start game loop
+    # def play_turn which will handle each turn of the game 
     # def switch_player which will change current_player 
     # gef game_over? which will check if game is over and will output GAME OVER
 end 
