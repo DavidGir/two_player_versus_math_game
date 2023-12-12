@@ -17,6 +17,3 @@ class Question
     player_answer == @answer
   end 
 end 
-
-# question = Question.new
-# puts question
