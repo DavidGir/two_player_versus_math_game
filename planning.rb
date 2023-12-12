@@ -15,7 +15,8 @@ class Game
     # def start which will start game loop
     # def play_turn which will handle each turn of the game 
     # def switch_player which will change current_player 
-    # gef game_over? which will check if game is over and will output GAME OVER
+    # def game_over? which will check if game is over and will output GAME OVER
+    # def display_scores which will show the scores an an output
 end 
 
 class Question
