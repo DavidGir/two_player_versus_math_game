@@ -1,4 +1,5 @@
 require_relative 'player'
+require_relative 'question'
 
 class Game
 
@@ -13,5 +14,22 @@ class Game
     @current_player = @current_player == @player1 ? @player2 : @player1
   end
 
- 
+  def start
+    # Loop to ensure players are still alive
+    while @player1.alive? && @player2.alive? 
+      # call method to handle each game turn
+      play_turn
+      switch_player
+    end
+    game_over?
+  end
+
+  def display_scores
+    puts "#{@player1.name}: #{@player1.lives} vs #{@player1.name}: #{@player2.lives} "
+  end
+
+  
+
+  
+
 
