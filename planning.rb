@@ -17,6 +17,7 @@ class Game
     # def switch_player which will change current_player 
     # def game_over? which will check if game is over and will output GAME OVER
     # def display_scores which will show the scores an an output
+    # def announce_winner which will display the player who won with their score
 end 
 
 class Question
